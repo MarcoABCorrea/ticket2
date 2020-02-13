@@ -4,7 +4,7 @@ function setIcons() {
   var iconName = "mdv.png"
 
   var baseUrl =
-    "https://raw.githubusercontent.com/marcoabcorrea/ticket2/master/icons/"
+    "https://raw.githubusercontent.com/MarcoABCorrea/ticket2/master/icons/"
   icon.src = baseUrl + iconName
   barcode.src = baseUrl + barcodeName
 }

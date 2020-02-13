@@ -12,20 +12,27 @@
     <div class="ticket-container">
       <div class="title-container">
         <div class="title">
-          <h1>Einzelticket</h1>
-          <span>x</span>
+          <span class="ticket-name bold">Einzelticket</span>
+          <span class="close-button">x</span>
         </div>
         <div class="sub-title-container">
-          <span class="code">XWDBOA</span>
-          <span class="sub-title">Einzelfahrt</span>
-          <label id="timer">00:12</label>
+          <ul>
+            <li class="bold">XWDBOA</li>
+            <li>Einzelfahrt</li>
+          </ul>
+          <div class="timer">
+            <label id="minutes">00</label>:<label id="seconds">00</label>
+          </div>
         </div>
       </div>
 
-      <img id="icon" src="/icons/icon_bus.png" />
+      <div class="barcode">
+        <img id="icon" />
+        <img id="barcode" />
+      </div>
 
       <div class="ticket-validity">
-        <ul class="valid-dates">
+        <ul class="valid-dates bold">
           <li>Einzelfahrt</li>
           <li>Gültig von: 26.12.2019 15:06</li>
           <li>Gültig bis: 26.12.2019</li>
@@ -57,7 +64,12 @@
         <li>Gebucht am 26.12.2019 um 15:06</li>
       </ul>
 
-      <img id="order" src="/icons/icon_train.png" />
+      <img
+        id="barcodeBase64"
+        src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
+    AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
+        9TXL0Y4OHwAAAABJRU5ErkJggg=="
+      />
     </div>
   </body>
 </html>

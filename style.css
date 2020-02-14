@@ -67,6 +67,10 @@ ul {
   margin-top: 10px;
 }
 
+#base64Image {
+  width: 100%;
+}
+
 .ticket-validity,
 .about-container,
 .order-info {

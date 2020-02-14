@@ -27,10 +27,12 @@ function move() {
 }
 
 function AnimationListener() {
+  icon.style.display = "none"
   icon.style.webkitAnimation = "none"
   var currentTime = getComputedStyle(icon).getPropertyValue("--animation-time")
   currentTime = currentTime.slice(0, -1).trim()
   changeAnimationTime()
+  icon.style.display = "block"
   icon.style.webkitAnimation = ""
 }
 
